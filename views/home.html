@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Título web page-->
+  <title>FOODMAP</title>
+  <!-- Icono página-->
+  <link rel="shortcut icon" href="../assets/images/huevo.png">
+  <!-- Tipografías-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <!-- Se vinculan estilos-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <a data-target="#moreInfo" data-toggle="modal" type="button"><i class="glyphicon glyphicon-question-sign"></i></a>
+      <h1 id="title" class="text-center">FOODMAP </h1>
+
+    </header>
+
+    <div class="pseudo-icon">
+      <div class="inline-block pull-left square "></div>
+      <hr class="inline-block">
+      <div class="inline-block pull-right square "></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 margin-top map-container map-padding">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.817215681835!2d-99.16530268552586!3d19.420301986891268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff41d4c73813%3A0xd1c6f4fcad149f54!2sLaboratoria+Coding!5e0!3m2!1ses-419!2smx!4v1516276830437" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <h4 id="title" class="text-center margin-top">Inicia tu búsqueda por Ciudad...</h4>
+
+    <div class="container-fluid row">
+      <div class="form-group col-xs-12">
+        <div class="input-group">
+          <input type="text" class="form-control input-js" placeholder="Campeche / Oaxaca / Puebla / Yucatán ">
+          <div class="input-group-addon"><i class="glyphicon glyphicon-search"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div  id="margin-0" class="photo-gallery container col-xs-offset-1 padding-0">
+      <!-- Galería de imágenes -->
+    </div>
+
+    <!--MODAL ¿CÓMO INICIO?-->
+    <div class="modal fade" id="moreInfo" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-dialog">
+
+          <!-- Contenido-->
+          <div class="modal-content">
+            <div class="modal-header" style="padding:35px 50px;">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <!--Glyphicons de Bootstrap-->
+              <h2 class="modal-title-nojs  text-center text-uppercase"><span class="glyphicon glyphicon-info-sign"></span>¿Cómo iniciar?</h2>
+            </div>
+            <div class="modal-background" style="padding:40px 50px;">
+              <h3 id="white" class="text-center"> <span>FOODMAP</span> | Comida regional Mexicana </h3>
+              <br>
+              <p id="white">Bienvenido a FoodMap, la página web que pone a tu alcance los mejores restaurantes de comida regional mexicana dentro de la CDMX. Para comenzar sólo debes usar el recuadro de búsqueda en nuestra página principal y buscar por el nombre de la ciudad (región) de donde proviene la comida. Es decir, si buscas comer panuchos de la famosa cocina Yucateca busca: "Yucatán". Y es así como te mostraremos un listado de los restaurantes disponible con ese filtro.</p>
+              <p id="white">Cabe mencionar que eres afortunado al estar probando la versión beta antes del gran lanzamiento y por el momento están disponibles los restaurantes con comida de: Campeche, Oaxaca, Puebla y Yucatán. </p>
+            </div>
+            <div class="modal-footer">
+              <p>Not a member? <a href="#">Sign Up</a></p>
+              <p>Forgot <a href="#">Password?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--MODAL DATA RESTAURANTES-->
+
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="modal">
+      <div class="modal-dialog " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-origin-title modal-title-style"> <i class="glyphicon glyphicon-flag"></i> Origen: </h3>
+            <h1 class="modal-city-title modal-title-style text-uppercase"></h1>
+          </div>
+          <div class="modal-body modal-flex modal-flex">
+            <div class="figure-size">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481728.804639732!2d-99.42381863904701!3d19.390519019542264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1516544528283" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="container-data-modal modal-flex-container ">
+              <div class="modal-item ">
+                <h3 id="item-title" class=" text-center modal-title-style">RESTAURANTE <i class="glyphicon glyphicon-cutlery"></i> </h3>
+                <p class=" text-center item-text-style place-name-data"></p>
+              </div>
+              <div class="modal-item ">
+                <h3 id="item-title" class=" text-center modal-title-style" >UBICACIÓN <i class="glyphicon glyphicon-map-marker"></i> </h3>
+                <p class=" text-center item-text-style adress-data"></p>
+              </div>
+              <div class="modal-item ">
+                <h3 id="item-title" class=" text-center modal-title-style" >TELÉFONO <i class="glyphicon glyphicon-phone-alt"></i> </h3>
+                <p class="text-center item-text-style phone-data"></p>
+              </div>
+              <div class="modal-item ">
+                <h3 id="item-title" class=" text-center modal-title-style" >RANGO DE PRECIOS <i class="glyphicon glyphicon-piggy-bank"></i> </h3>
+                <p class="text-center item-text-style cost-data"></p>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-success">¡Pedir Ahora!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Se vincula jQuery-CDN / Data / JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/home.js"></script>
+</body>
+</html>

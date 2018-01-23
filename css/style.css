@@ -1,0 +1,300 @@
+/*** Orden alfabético, tags > id's > clases:
+vista splash > home ***/
+
+/* Estilos de vista splash*/
+body.splash {
+  height: 100vh;
+  background-image: url(../assets/images/agave.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  align-items: center;
+}
+
+img.egg {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-out;
+  transition: transform .99s ease-out;
+}
+
+img.egg {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#img-splash {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em;
+  width: 80px;
+  height: 80px;
+  animation: infinite 500ms ease-in-out;
+}
+
+.slow-title {
+  color: #ffc104;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.splash-view {
+  margin-left: 8.5vw;
+  text-align: center;
+}
+
+.subtitle {
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  font-size: .98em;
+}
+
+/* Estilos de vista home*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  background-image: url(../assets/images/chili2.jpg);
+  background-position: top center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+hr {
+  border-color: #fff;
+  width: 100%;
+  align-self: center;
+}
+
+h3#white {
+  font-weight: 300;
+}
+
+input.form-control {
+  border-color: #cecece;
+}
+
+img {
+  padding: 2%;
+}
+
+p#white {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+/*Id's que se superponen a clases preestablecidas */
+#item-title {
+  font-size: 1em;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+#margin-0 {
+  margin: 0;
+}
+
+#title {
+  color: #fff;
+  font-weight: lighter;
+  padding-left: .5em;
+}
+
+#white {
+  color: #fff;
+}
+
+.container-data-modal {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.figure-size {
+  width: 90%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.gallery-padding {
+  padding: 1em;
+}
+
+.glyphicon-search {
+  color: #cecece;
+}
+
+.glyphicon-question-sign {
+  font-size: 1em;
+  color: #ffc104;
+  float: right;
+  overflow: hidden;
+  padding-top: .5em;
+}
+
+.glyphicon-question-sign:hover {
+  color: #cecece;
+  transition: all .5s ease-in-out;
+}
+
+.input-group-addon:last-child {
+  background-color: #0D1218;
+  border-color: #cecece;
+}
+
+.item-text-style {
+  font-size: 1em;
+  color: #939393;
+}
+
+
+/* centrado*/
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.map-container {
+  /* altura fija*/
+  height: 200px;
+  border: 1px solid #ffc104;
+}
+
+/* Aire relativo alrededor del iframe (mapa)*/
+.map-padding {
+  padding: 1%;
+}
+
+.margin-top {
+  margin-top: 1.5em;
+}
+
+.modal-background {
+  background-image: url(../assets/images/agave.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.modal-city-title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.modal-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.modal-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.modal-item {
+  width: 50%;
+  height: 100px;
+}
+
+.modal-title-nojs {
+  color: #1f3559;
+  font-weight: 300;
+}
+
+.modal-origin-title {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.modal-title-style {
+  color: #1f3559;
+  font-weight: 300;
+}
+
+/* mouseover*/
+.mouseOpacity {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  top: 35%;
+  height: 100%;
+  width: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  min-width: 60px;
+  max-height: 220px;
+  max-width: 220px;
+  margin: 0;
+  background: rgba(0, 0, 0, .8);
+}
+
+.msOver-text {
+  font-size: 1em;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  color: #fff;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.padding-0-10px {
+  padding: 0 10px;
+}
+
+.pseudo-icon {
+  padding: 1px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+.relPosition {
+  position: relative;
+}
+
+.showingLogo {
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  min-width: 60px;
+  max-height: 220px;
+  max-width: 220px;
+  border-radius: 10%;
+  margin: 0;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  align-self: center;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+@media(min-width:992px) {
+  .gallery-padding {
+    padding-right: 3em;
+    padding-left: 1.5em;
+  }
+}
