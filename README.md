@@ -1,6 +1,6 @@
 # F O O D M A P
-## Sprint 3 Laboratoria | Unidad 3
 Ejercicio de creación de una *web-app* que filtra restaurantes en el área de la Ciudad de México.
+- Sprint 3 Laboratoria | Unidad 3
 
 ![Vista de Inicio](assets/images/init.PNG)
 
