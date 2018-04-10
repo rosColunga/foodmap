@@ -18,13 +18,12 @@ Al situarse dentro de la vista principal, encontramos de lado superior derecho, 
 
 Iniciando la interacción con el sitio, encontramos debajo del encabezado con título, un mapa con nuestra ubicación actual *(Laboratoria Coding)*. Seguido de ello, encontramos un recuadro de recepción de texto, en el cual se encaminan los criterios de filtración de la página. Los cuales son: Campeche, Oaxaca, Puebla y Yucatán.  
 
-![mocks](https://user-images.githubusercontent.com/32855963/38584103-e6c2bc7a-3cda-11e8-94ee-77b5074704d1.jpg)
-
 Por defecto se muestran las imágenes con los logotipos de todos los restaurantes dentro de la base de datos. Al colocar el cursor del mouse sobre las imágenes, ya se puede observar de qué región es el tipo de comida del restaurante.
 
 Buscando facilitar la tarea de búsqueda de nuestro usuario, se ha habilitado la función de búsqueda inteligente. Al comenzar a ingresar el nombre de la ciudad, comenzará a observar únicamente los restaurantes que cumplen con el criterio y al seleccionar alguno de ellos, se muestra la información de este a través de un modal.
 
 Una vez cerrado el modal volvemos a la vista principal.
 
+![mocks](https://user-images.githubusercontent.com/32855963/38584103-e6c2bc7a-3cda-11e8-94ee-77b5074704d1.jpg)
 
 
