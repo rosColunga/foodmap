@@ -2,11 +2,13 @@
 ## Sprint 3 Laboratoria | Unidad 3
 Ejercicio de creación de una *web-app* que filtra restaurantes en el área de la Ciudad de México.
 
+![Vista de Inicio](assets/images/init.PNG)
+
 ### Resultados
 ###### CONFORME A REQUERIMIENTOS
 Vista *splash* con duración de 3 segundos; se muestra el título "FOODMAP: Comida regional mexicana", acompañada de la ilustración de un huevo "estrellado" y en el fondo una imágen de agaves. Se desvanece con un efecto *fade-out* que al finalizar direcciona a la vista principal de la web-app.
 
-![Resultado](assets/images/foodmap-splash.gif)
+![Vista splash inicio](assets/images/foodmap-splash.gif)
 
 El sitio es funcional y adaptable a diferentes tamaños de dispositivo. Se han eligido imágenes que transmitan pasión por la cocina tradicional mexicana, ingredientes y utencilios mexicanos como el molcajete.
 
