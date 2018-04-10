@@ -12,8 +12,6 @@ Vista *splash* con duración de 3 segundos; se muestra el título "FOODMAP: Comi
 
 El sitio es funcional y adaptable a diferentes tamaños de dispositivo. Se han eligido imágenes que transmitan pasión por la cocina tradicional mexicana, ingredientes y utencilios mexicanos como el molcajete.
 
-![Vista de Inicio](assets/images/init.PNG)
-
 Al situarse dentro de la vista principal, encontramos de lado superior derecho, un icono de ayuda, que nos despliega una breve introducción al producto con el objetivo de facilitar al usuario de la aplicación comprender nuestra propuesta y objetivo. El cual es ofrecer un servicio de búsqueda de restaurantes de comida regional mexicana en la Ciudad de México, por la ciudad de dónde proviene el tipo de comida.
 
 ![Resultado](assets/images/modal-info.PNG)
